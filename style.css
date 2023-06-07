@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f9ff;
+    padding-left: .5em;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #111;
+    padding: 1.5em;
+}
+
+li{
+    color: #f9f9ff;
+    list-style: none;
+    margin-right: 1.5em;
+    font-size: 1.2em;
+}
+
+button{
+    cursor: pointer;
+}
+
+.colorsContainer{
+    background-image: linear-gradient(to top left, #ffde96,#ffa1ad,#fffbe2);
+    width: 20em;
+    padding: 2em 0;
+    margin: 1em 0;
+}
+
+.colorsInput{
+    padding: .3em .5em;
+    margin-left: .3em;
+    border-radius: 5em;
+    outline: none;
+    border: 1px solid #111;
+    background-color: #111;
+    color: #f9f9ff;
+}
+
+.colorsInput:hover{
+    background-color: #f9f9ff;
+    color: #111;
+}
+
+.colorsInput:focus{
+    background-color: #f9f9ff;
+    color: #111;
+}
+
+.btnColors{
+    padding: .3em .8em;
+    border-radius: 5em;
+    border: 1px solid #111;
+    background-color: #111;
+    color: #f9f9ff;
+}
+
+.btnColors:hover{
+    background-color: #f9f9ff;
+    color: #111;
+}
+
+.result{
+    margin: .3em;
+
+}
+
+.paragraphContainer{
+    background-color: #111;
+    width: 20em;
+    padding: 3em 0;
+}
+
+.paragraphContainer > p{
+   color: #f9f9ff;
+   margin-left: .3em;
+}
+
+.tablesContainer{
+    background-color: #111;
+    width: 50em;
+    padding: .5em;
+    margin: 1em 0;
+    display: flex;
+
+} 
+
+.tablesFlex{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.colDescription{
+    margin-right: .5em;
+}
+
+.table{
+    margin: .5em 0;
+    padding: .5em;
+    cursor: pointer;
+    border: 1px solid #111;
+}
+
+.rowDescription{
+    background-color: #b7c7ba;
+}
+
+.rowInformation{
+    background-color: #f9f9ff;
+}
+
+.backgroundLilac{
+    background-color: #c6cfeb;
+}
+
+.backgroundBlack{
+    background-color: #111;
+}
+
+.colorLilac{
+    color: #c6cfeb;
+}
+
+.ulElements{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #111;
+    width: 20em;
+}
+
+.liElements{
+    cursor: pointer;
+    margin: .5em 0;
+}
+
+.newsContainer{
+    background-color: #9dabb1;
+    margin-top: .3em;
+    padding: .8em;
+}
+
+.titleNew{
+    font-size: 1.6em;
+    text-decoration: underline;
+    text-decoration-color: #ffa1ad;
+
+}
+
+.new{
+    padding: .8em;
+}
+
+.btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnNew{
+    border: 1px solid #111;
+    border-radius: 5em;
+    padding: .4em 1em;
+    margin-right: .5em;
+}
+
+.btnNew:hover{
+    background-color: #bed1da;
+    border: 1px solid #111;
+    cursor: pointer;
+}
+
+.tablesTowContainer{
+    background-color: #86c6e4;
+    border: 1px solid #111;
+    width: 50em;
+    margin: 1em .8em 0 0;
+    display: flex;
+} 
+
+.tablesThreeContainer{    
+    background-color: #839ba7;
+    border: 1px solid #111;
+    width: 50em;
+    margin: 1em .8em 0 0;
+    display: flex;
+} 
+
+.tableProduct,.tableProduct1{
+    padding: 1em;
+    border: 1px solid #111;
+}
+
+.btnChange{
+    border: 1px solid #111;
+    border-radius: 5em;
+    padding: .4em 1em;
+    margin: 1em .5em 0 0;
+}
+
+.tablesProducts{
+    display: flex;
+}
+
+.btnLink{
+    background-color: #3a357c;
+    color: #f9f9ff;
+    border: 1px solid #3a357c;
+    border-radius: 5em;
+    padding: .6em 1em;
+    margin: 1em .5em .5em 0;
+}
+
+.titleRecipe{
+    margin: 1em 0;
+}
+
+.ingredients{
+    background-color: #111;
+    padding: 2em;
+}
+
+.preparation{
+    background-color: #839ba7;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+
+.item-preparation{
+    margin-bottom: .5em;
+}
+
+.featured-paragraph{
+    color: #302e46;
+    cursor: pointer;
+}
+
+.btnRecipe{
+    background-color: #3a357c;
+    color: #f9f9ff;
+    border: 1px solid #3a357c;
+    border-radius: 5em;
+    padding: .6em 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.tablesFourContainer{    
+    border: 1px solid #111;
+    width: 50em;
+    margin: 1em .8em 1em 0;
+    display: flex;
+} 
+
+.tableProductBack{
+    padding: 1em;
+    border: 1px solid #111;
+    background-color: #ffde96;
+}
+
+.backPastelPink{
+    background-color: #ff948b;
+}
+
+.sizeDiv{
+    background-color: #86c6e4;
+    width: 800px;
+    height: 70px;
+    margin-bottom: 2em;
+}
+
+.sizeDivDblclick{
+    width: 250px;
+    height: 250px;
+}
+
+
+.setOfParagraphs{
+    background-color: #ee9a92;
+    padding: 2em;
+}
+
+.setOfParagraphs > p{
+    margin-top: .5em;
+}
+
+.setOfParagraphs2{
+    background-color: #80a9b4;
+    padding: 2em;
+    display: none;
+}
+
+.setOfParagraphs2 > p{
+    margin-top: .5em;
+}
+
+.selectContainer{
+    padding: 1em 0;
+}
+
+.selectUser{
+    padding: .5em 1em;
+    border-radius: 5em;
+    background-color: #111;
+    border: 1px solid #111;
+    color: #f9f9ff;
+    cursor: pointer;
+}
+
+.selectUser:hover{
+  background-color: #333;
+}
+
+.selectUser:focus{
+    background-color: #333;
+}
+
+.parentDiv{
+    padding: 1em 0;
+}
+
+.childButton{
+    padding: .5em 1em;
+    border-radius: 5em;
+    background-color: #111;
+    border: 1px solid #111;
+    color: #f9f9ff;
+    cursor: pointer;
+}
+
+.formUser{
+    padding: 0 0 1em 0;
+}
+
+.formDatesPersonal{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputFormUser{
+    width: 15em;
+    padding: .5em 1em;
+    border-radius: 5em;
+    background-color: #111;
+    border: 1px solid #111;
+    color: #f9f9ff;
+    cursor: pointer;
+}
+
+.formDatesPersonal > label{
+    width: 15em;
+    margin: .5em 0;
+ }
+
+.btnFormUser{
+    width: 15em;
+    padding: .5em 1em;
+    margin-top: 1em;
+    border-radius: 5em;
+    background-color: #111;
+    border: 1px solid #111;
+    color: #f9f9ff;
+    cursor: pointer;
+}
+
+.resultForm{
+    width: 10%;
+}
+
+.listForm{
+    margin: 1.5em 0;
+}
+
+.formItems{
+ display: flex;
+ flex-direction: row;
+}
+
+.inputItems{
+    padding: .4em 1em;
+    margin-top: 1em;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+    background-color: #111;
+    border: 1px solid #111;
+    color: #f9f9ff;
+    outline: none;
+}
+
+.inputItems:hover{
+    background-color: #333;
+}
+
+.inputItems:focus{
+    background-color: #333;
+}
+
+.inputAddItems{
+    padding: .4em 1em;
+    margin-top: 1em;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+    background-color: #f9f9ff;
+    border: 1px solid #111;
+    color: #111;
+    cursor: pointer;
+}
+
+.inputAddItems:hover{
+    background-color: #d8d8df;
+}
+
+
+.liFormItems{
+    color: #111;
+    list-style: disc;
+}
+
+.dark-mode{
+    background-color: #111;
+}
+
+.light-mode{
+    background-color: #f9f9ff;
+    color: #111;
+}
+
+.color-light-mode{
+    color: #f9f9ff;
+}
+
+.color-dark-mode{
+    color: #111;
+}
+
+.change-mode{
+    padding: .4em 1em;
+    margin-top: 1em;
+    border-radius: 5em;
+    background-color: #f9f9ff;
+    border: 1px solid #111;
+    color: #111;
+    cursor: pointer;
+}
+
+.formProducts{
+    margin: 1em 0;
+    display: flex;
+}
+
+.product{
+    padding: .3em 1em;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+    background-color: #f9f9ff;
+    border: 1px solid #111;
+    color: #111;
+    cursor: pointer;
+    outline: none;
+}
+
+.product:hover{
+    background-color: #e4e4eb;
+}
+
+.product:focus{
+    background-color: #e4e4eb;
+}
+
+.seeker{
+    padding: .3em 1em;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+    background-color: #111;
+    border: 1px solid #111;
+    cursor: pointer;
+}
+
+.seekerIcon{
+    color: #f9f9ff;
+}
+
+.price{
+    margin: .3em 0;
+}
+
+.searchResults{
+    margin: .3em 0;
+}
+
+.color-violet{
+    color: #3a357c;
+}
