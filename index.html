@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicios_utn-03</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="imagenes/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+    
+    <div class="listTunordered" id="listTunordered">
+        <!-- <h2>lista desordenada</h2> -->
+    </div>
+
+    <div class="colorsContainer">
+        <form id="formColors">
+            <input type="text" class="colorsInput" id="colorsUser">
+            <button class="btnColors" id="btnColors">verificar</button>
+        </form>
+
+        <div class="result" id="resultcheck">
+            <!-- el resultado se verificara desde js -->
+        </div>
+    </div>
+
+    <div class="paragraphContainer">
+        <p id="paragraph01">este es el primer parrafo</p>
+        <p>este es el segundo parrafo</p>
+    </div>
+
+    <div class="tablesContainer">
+        <div class="tablesFlex colDescription">
+            <div class="table rowDescription"><h2>fruta</h2></div>
+            <div class="table rowDescription"><h2>Precio</h2></div>
+            <div class="table rowDescription"><h2>Origen</h2></div>
+            <div class="table rowDescription"><h2>Cantidad</h2></div>
+            <div class="table rowDescription"><h2>Total</h2></div>
+        </div>
+        <div class="tablesFlex">
+            <div class="table rowInformation"><h2 class="h2Information">Peras</h2></div>
+            <div class="table rowInformation"><h2 class="h2Information">2.30</h2></div>
+            <div class="table rowInformation"><h2 class="h2Information">Argentina</h2></div>
+            <div class="table rowInformation"><h2 class="h2Information">40kg</h2></div>
+            <div class="table rowInformation"><h2 class="h2Information">92k</h2></div>
+        </div>
+    </div>
+
+    <div class="listMessyContainer">
+        <ul class="ulElements">
+            <li class="liElements">elemento 1</li>
+            <li class="liElements">elemento 2</li>
+            <li class="liElements">elemento 3</li>
+            <li class="liElements">elemento 4</li>
+        </ul>
+    </div>
+    
+    <div class="newsContainer">
+        <div class="new">
+            <h2 class="titleNew">"Descubren nueva especie de dinosaurio en Argentina"</h2>
+            <div class="description" id="clase">Investigadores paleontólogos han anunciado el descubrimiento de una nueva especie de dinosaurio en la provincia de Neuquén, Argentina. El dinosaurio, denominado "Neuquensaurus", pertenecía al grupo de los saurópodos y vivió hace aproximadamente 90 millones de años. Este hallazgo proporciona nuevos conocimientos sobre la diversidad y evolución de los dinosaurios en la región.</div>
+        </div>
+        <div class="new">
+            <h2 class="titleNew">"Lanzamiento exitoso del satélite de observación climática"</h2>
+            <div class="description"  id="clase">La agencia espacial internacional anunció el exitoso lanzamiento de un nuevo satélite de observación climática desde el centro de lanzamiento espacial. El satélite está equipado con instrumentos de última generación para monitorear y recopilar datos sobre los patrones climáticos, la temperatura de la Tierra y la capa de ozono. Estos datos serán fundamentales para mejorar la comprensión del cambio climático y tomar medidas más efectivas para proteger el medio ambiente.</div>
+        </div>
+        <div class="new">
+            <h2 class="titleNew">"Avances en la lucha contra el cáncer: Nuevo tratamiento muestra resultados prometedores"</h2>
+            <div class="description"  id="clase">Científicos de un prestigioso instituto de investigación médica han anunciado resultados prometedores en el desarrollo de un nuevo tratamiento para el cáncer. El tratamiento, basado en terapia génica, ha demostrado ser altamente efectivo en ensayos clínicos iniciales, logrando reducir significativamente el tamaño de los tumores en pacientes con ciertos tipos de cáncer. Si los resultados se confirman en etapas posteriores, este tratamiento podría representar un avance significativo en la lucha contra el cáncer.</div>
+        </div>
+        <div class="btnContainer">
+            <button class="btnNew" id="small">pequeño</button>
+            <button class="btnNew" id="medium">mediano</button>
+            <button class="btnNew" id="big">grande</button>
+        </div>
+    </div>
+
+    <div class="tablesProducts">
+          
+        <div class="tablesTowContainer">
+            <div class="tablesFlex">
+                <div class="tableProduct1"><h2 class="h2Product">producto</h2></div>
+                <div class="tableProduct1"><h2 class="h2Product">cantidad</h2></div>
+                <div class="tableProduct1"><h2 class="h2Product">precio</h2></div>
+            </div>
+            <div class="tablesFlex">
+                <div class="tableProduct1"><h2 class="h2Product">martillo Stanley</h2></div>
+                <div class="tableProduct1"><h2 class="h2Product">50</h2></div>
+                <div class="tableProduct1"><h2 class="h2Product">$5500</h2></div>
+            </div>
+            <div class="tablesFlex">
+                <div class="tableProduct1"><h2 class="h2Product">mesa de madera</h2></div>
+                <div class="tableProduct1"><h2 class="h2Product">20</h2></div>
+                <div class="tableProduct1"><h2 class="h2Product">$240000</h2></div>
+            </div>
+        </div>
+        
+        <div class="tablesThreeContainer">
+            <div class="tablesFlex">
+                <div class="tableProduct"><h2>producto</h2></div>
+                <div class="tableProduct"><h2>cantidad</h2></div>
+                <div class="tableProduct"><h2>precio</h2></div>
+            </div>
+            <div class="tablesFlex">
+                <div class="tableProduct"><h2>sombrilla</h2></div>
+                <div class="tableProduct"><h2>75</h2></div>
+                <div class="tableProduct"><h2>$55000</h2></div>
+            </div>
+            <div class="tablesFlex">
+                <div class="tableProduct"><h2>reposeras</h2></div>
+                <div class="tableProduct"><h2>100</h2></div>
+                <div class="tableProduct"><h2>$24000</h2></div>
+            </div>
+        </div>
+    </div>
+    <button class="btnChange" id="btnChangeContent">vaciar 1º tabla</button>
+
+    <div class="linkContainer">
+        <a id="link" href=""></a>
+        <button class="btnLink" id="mozilla">ir amozilla developer</button>
+        <button class="btnLink" id="chatGPT">ir a chatGPT</button>
+        <button class="btnLink" id="profile">ir a perfil github</button>
+    </div>
+
+    <div class="recipe">
+        <h1>Ensalada de Pollo</h1>
+        <h2 class="titleRecipe">Ingredientes:</h2>
+        <ul class="ingredients">
+            <li>2 pechugas de pollo cocidas y desmenuzadas</li>
+            <li>1 lechuga fresca</li>
+            <li>1 tomate</li>
+            <li>1 pepino</li>
+            <li>1 zanahoria</li>
+            <li>1/2 cebolla roja</li>
+            <li>Aceitunas negras al gusto</li>
+            <li>Queso feta desmenuzado al gusto</li>
+            <li>2 cucharadas de aceite de oliva</li>
+            <li>El jugo de 1 limón</li>
+            <li>Sal y pimienta al gusto</li>
+        </ul>
+    
+        <h2 class="titleRecipe">Preparación:</h2>
+        <ol class="preparation">
+            <li class="item-preparation"><strong class="featured-paragraph">Lava y corta la lechuga en trozos pequeños. Colócala en un tazón grande.</strong></li>
+            <li class="item-preparation">Pela y corta el tomate, el pepino y la zanahoria en rodajas finas. Agrega al tazón con la lechuga.</li>
+            <li class="item-preparation"><strong class="featured-paragraph">Corta la cebolla roja en rodajas delgadas y añádela a la ensalada.</strong></li>
+            <li class="item-preparation">Agrega las aceitunas negras y el queso feta desmenuzado al gusto.</li>
+            <li class="item-preparation"><strong class="featured-paragraph">En otro recipiente aparte, mezcla el aceite de oliva, el jugo de limón, sal y pimienta para hacer el aderezo.</strong></li>
+            <li class="item-preparation">Vierte el aderezo sobre la ensalada y mezcla bien para asegurarte de que todos los ingredientes estén cubiertos.</li>
+            <li class="item-preparation"><strong class="featured-paragraph">Agrega el pollo desmenuzado a la ensalada y mezcla nuevamente.</strong></li>
+            <li class="item-preparation">Sirve la ensalada de pollo en platos individuales y disfruta.</li>
+        </ol>
+
+        <button class="btnRecipe">reaparecer</button>
+    </div>
+
+    <div class="tablesFourContainer">
+        <div class="tablesFlex">
+            <div class="tableProductBack"><h2>producto</h2></div>
+            <div class="tableProductBack"><h2>cantidad</h2></div>
+            <div class="tableProductBack"><h2>precio</h2></div>
+        </div>
+        <div class="tablesFlex">
+            <div class="tableProductBack"><h2>pelota playera</h2></div>
+            <div class="tableProductBack"><h2>120</h2></div>
+            <div class="tableProductBack"><h2>$3000</h2></div>
+        </div>
+    </div>
+
+    <div class="sizeDiv"> 
+    </div>
+
+    <div id="div1" class="setOfParagraphs">
+        <p>El equipo local mostró un desempeño excepcional en el partido de hoy. Desde el inicio, dominaron el campo y mantuvieron el control del balón. Los delanteros demostraron una gran habilidad en el ataque, mientras que la defensa se mantuvo sólida y evitó que el equipo contrario anotara. Fue una victoria merecida que dejó a los aficionados emocionados y orgullosos.</p>
+        <p>El bosque se abría ante mis ojos, revelando una exuberante vegetación y una variedad de colores impresionante. Los árboles altos se alzaban majestuosos, ofreciendo sombra y refugio a numerosas especies de animales. El sonido del agua fluyendo por el arroyo cercano creaba una atmósfera serena y relajante. Era un lugar mágico donde podía perderme y conectarme con la belleza de la naturaleza.</p>
+        <p>El avance de la tecnología ha revolucionado la forma en que nos comunicamos y realizamos tareas diarias. Los dispositivos móviles nos mantienen conectados en todo momento, permitiéndonos acceder a información y realizar transacciones en línea de manera conveniente. La inteligencia artificial se ha convertido en una parte integral de nuestra vida, desde los asistentes virtuales hasta los sistemas de reconocimiento facial. Estamos inmersos en una era tecnológica emocionante y en constante evolución.</p>
+    </div>
+
+    <div id="div2" class="setOfParagraphs2">
+        <p>El sol se asomaba por encima de las montañas, pintando el cielo de tonos cálidos y dorados. Los pájaros comenzaban a cantar, llenando el aire con su melodía alegre. Era un amanecer tranquilo y sereno, perfecto para comenzar el día con energía y optimismo.</p>
+        <p>El aroma del café recién hecho llenaba la habitación, despertando los sentidos y anunciando la llegada de un nuevo día. El primer sorbo era como un abrazo reconfortante, llenándome de calidez y energía. El café, esa bebida tan simple pero tan reconfortante, se había convertido en mi ritual diario para empezar la jornada con buen pie.</p>
+        <p>El mar se extendía hasta donde alcanzaba la vista, sus olas rompiendo suavemente en la orilla. La brisa marina acariciaba mi rostro mientras caminaba por la playa, dejando que la arena se filtrara entre mis dedos. El sonido relajante de las olas y el sol brillante en el horizonte creaban una sensación de paz y serenidad. Era el lugar perfecto para escapar del ajetreo diario y conectar con la naturaleza.</p>
+    </div>
+
+    <div class="selectContainer">
+        <select id="selectUser" class="selectUser">
+            <option value="lunes">lunes</option>
+            <option value="martes">martes</option>
+            <option value="miercoles">miercoles</option>
+            <option value="jueves">jueves</option>
+            <option value="viernes">viernes</option>
+            <option value="sabado">sabado</option>
+            <option value="domingo">domingo</option>
+        </select>
+    </div>
+
+    <div class="linkPageUser">
+        <a href="https://www.w3schools.com/" class="linkUser">ir a w3schools</a>
+    </div>
+
+    <div id="parentDiv" class="parentDiv">
+        <button id="childButton" class="childButton">Haz clic aquí</button>
+    </div>
+
+    <div class="formUser">
+        <form id="formDatesPersonal" class="formDatesPersonal">
+            <label for="">ingresar email</label>
+            <input class="inputFormUser" type="email">
+            <label for="">ingresar contraseña</label>
+            <input class="inputFormUser" type="password">
+            <label for="">ingrese su fecha de nacimiento</label>
+            <input class="inputFormUser" type="date">
+            <input class="btnFormUser" type = "submit">
+        </form>
+        <div id="resultForm" class="resultForm"></div>
+    </div>
+
+    <div class="listForm">
+        <h2 class="h2Items">agregar items</h2>
+        <form id="formItems" class="formItems">
+            <input class="inputItems" type="text">
+            <input class="inputAddItems" type = "submit">
+        </form>
+    <div>
+
+    <button id="btn" class="change-mode">modo oscuro</button>
+
+    <div class="productsFilter">
+        <form class="formProducts" id="formProducts">
+            <input class="product" type="text">
+            <button class="seeker"><i class="bi bi-search seekerIcon"></i></button>
+        </form>
+        <div class="productsWanted"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
